@@ -1,3 +1,4 @@
+#Thomas Devery
 # import client & purchase csv files
 import csv
 import operator
