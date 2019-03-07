@@ -18,6 +18,8 @@ Testing page to merge seperate data values into an single string.
 
 # Testing
 
+For testing purposes, I renamed clients.csv: file1 & purchases.csv: file2
+
 I ran into difficulty when trying to print the data from multiple csv file onto one string
 rather than seperate files. In <datamergetest.py> I was able to print the inputted data on
 a single string but ran into difficulty when trying to do this with csv files.
