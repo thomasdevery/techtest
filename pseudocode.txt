@@ -1,0 +1,25 @@
+Task:
+
+In a programming language of your choice write some code to parse the exported data and
+list the top 50 clients that have accumulated the most loyalty points since January 1st 2018.
+Please exclude any banned clients.
+
+Pseudocode:
+
+Import csv files, title csv files: file1, file 2, etc.
+
+Initialize each csv file.
+
+While 'id' attribute is available in both csv files
+
+Set counter to 50 
+
+Print each string in descending order of Loyalty_points since date (01.01.2018)
+
+If 'banned_client' attribute is set to False
+ Print the client_id, last_name, Loyalty_points
+ 
+ Else
+ 
+ If 'banned_client' attribute is set to False
+    Print 'Null'
