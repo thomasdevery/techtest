@@ -1,0 +1,8 @@
+Your code is running at https://tech-test-thomasdevery.c9users.io.
+Important: use os.getenv(PORT, 8080) as the port and os.getenv(IP, 0.0.0.0) as the host in your scripts!
+
+None
+{'first_name': 'Tom', 'id': 101, 'loyalty_points': 450}
+
+
+Process exited with code: 0
