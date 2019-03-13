@@ -1,0 +1,6 @@
+select first_name, last_name, email, mobile, gender, banned, points
+from mem_client_card
+right join mem_loyalty_account on mem_loyalty_account.id = mem_client_card.id
+where banned = false
+order by points DESC
+limit 50 
