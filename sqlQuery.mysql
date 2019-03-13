@@ -4,3 +4,7 @@ right join mem_loyalty_account on mem_loyalty_account.id = mem_client_card.id
 where banned = false
 order by points DESC
 limit 50 
+
+
+/* Periscope Data - using the data from mem_client_card & mem_loyalty_account I was able run a query to display the a list of clients
+with the most loyalty points. The list is displayed in descending order of loyalty points. Excluding banned clients*/
